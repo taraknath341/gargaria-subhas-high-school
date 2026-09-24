@@ -44,7 +44,7 @@
       color: transparent;
       background-clip: text;
       span {
-         color: var(--pico-primary);
+         color: #7e65f7;
       }
    }
 </style>
