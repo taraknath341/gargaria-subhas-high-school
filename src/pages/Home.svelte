@@ -24,6 +24,8 @@
          <p>{content}</p>
       </article>
    {/each}
+
+   <article>&copy; 2026 Gargaria Subhas High School</article>
 </main>
 
 <style>

@@ -1,5 +1,5 @@
 <script>
-   import { IconHome, IconPhoto, IconSettings } from "@tabler/icons-svelte";
+   import { IconHome, IconPhoto, IconMessage2, IconSettings } from "@tabler/icons-svelte";
 </script>
 
 <!-- <aside> -->
@@ -10,6 +10,7 @@
    <ul>
       <li><a href="/#/"> <IconHome stroke={2} /> </a></li>
       <li><a href="/#/images"> <IconPhoto stroke={2} /> </a></li>
+      <li><a href="/#/contact"> <IconMessage2 stroke={2} /> </a></li>
       <li><a href="/#/settings"> <IconSettings stroke={2} /> </a></li>
    </ul>
 </nav>

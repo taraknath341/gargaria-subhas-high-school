@@ -4,10 +4,10 @@
    // component
    import Nav from "./components/common/Nav.svelte";
    import Router, { router } from "svelte-spa-router";
-   import NotFound from "./pages/NotFound.svelte";
    import Images from "./pages/Images.svelte";
    import Home from "./pages/Home.svelte";
    import Settings from "./pages/Settings.svelte";
+   import Contact from "./pages/Contact.svelte";
    renderTheme();
 </script>
 
@@ -20,9 +20,9 @@
       <Router
          routes={{
             "/images": Images,
-            "/": Home,
             "/settings": Settings,
-            "*": NotFound,
+            "/contact": Contact,
+            "*": Home,
          }}
       />
    </div>
