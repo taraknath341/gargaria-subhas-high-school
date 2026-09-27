@@ -1,5 +1,5 @@
 <script>
-   import { IconHome, IconPhoto, IconMessage2, IconSettings } from "@tabler/icons-svelte";
+   import { IconHome, IconPhoto, IconMessage2, IconSettings, IconBrandGithub } from "@tabler/icons-svelte";
 </script>
 
 <!-- <aside> -->
@@ -12,6 +12,9 @@
       <li><a href="/#/images"> <IconPhoto stroke={2} /> </a></li>
       <li><a href="/#/contact"> <IconMessage2 stroke={2} /> </a></li>
       <li><a href="/#/settings"> <IconSettings stroke={2} /> </a></li>
+      <li>
+         <a href="https://github.com/taraknath341/gargaria-subhas-high-school"> <IconBrandGithub stroke={2} /> </a>
+      </li>
    </ul>
 </nav>
 
