@@ -25,7 +25,7 @@
       </article>
    {/each}
 
-   <article>&copy; 2026 Gargaria Subhas High School</article>
+   <p>&copy; 2026 Gargaria Subhas High School</p>
 </main>
 
 <style>
