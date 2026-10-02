@@ -4,10 +4,11 @@
    // component
    import Nav from "./components/common/Nav.svelte";
    import Router, { router } from "svelte-spa-router";
-   import Images from "./pages/Images.svelte";
    import Home from "./pages/Home.svelte";
-   import Settings from "./pages/Settings.svelte";
+   import Images from "./pages/Images.svelte";
    import Contact from "./pages/Contact.svelte";
+   import Settings from "./pages/Settings.svelte";
+   import NotFound from "./pages/NotFound.svelte";
    renderTheme();
 </script>
 
@@ -19,10 +20,11 @@
    <div out:slide={{ duration: 150 }}>
       <Router
          routes={{
+            "/": Home,
             "/images": Images,
-            "/settings": Settings,
             "/contact": Contact,
-            "*": Home,
+            "/settings": Settings,
+            "*": NotFound,
          }}
       />
    </div>
