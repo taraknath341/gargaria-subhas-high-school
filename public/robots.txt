@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Important pages
+Allow: /index.html
+
+# Sitemap
+Sitemap: https://gshs.surge.sh/sitemap.xml
