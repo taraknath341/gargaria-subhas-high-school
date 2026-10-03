@@ -12,9 +12,7 @@
    renderTheme();
 </script>
 
-<header class="container">
-   <Nav />
-</header>
+<Nav />
 
 {#key router.location}
    <div out:slide={{ duration: 150 }}>
