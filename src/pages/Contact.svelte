@@ -8,9 +8,10 @@
 
    async function onsubmit(e) {
       e.preventDefault();
-      console.log(name);
       submitLoading = true;
       await contactFormSubmit(name, message);
+      name = "";
+      message = "";
       submitLoading = false;
    }
 </script>
