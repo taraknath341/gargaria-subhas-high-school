@@ -31,6 +31,7 @@
       top: 0;
       background: color-mix(in srgb, var(--pico-background-color) 70%, #00000000);
       backdrop-filter: blur(6px);
+      z-index: 2;
    }
 
    .sitename {
