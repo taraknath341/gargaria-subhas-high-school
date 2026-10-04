@@ -1,5 +1,5 @@
 <script>
-   import { IconBrush } from "@tabler/icons-svelte";
+   import { IconBrush } from "@tabler/icons-svelte-runes";
    import renderTheme from "../functions/renderTheme.js";
 
    let currentTheme = $state(localStorage.getItem("theme") || "system");

@@ -6,7 +6,7 @@
       "name": "vite-project",
       "dependencies": {
         "@picocss/pico": "^2.1.1",
-        "@tabler/icons-svelte": "^3.48.0",
+        "@tabler/icons-svelte-runes": "^3.48.0",
         "svelte-spa-router": "^5.1.1",
       },
       "devDependencies": {
@@ -69,7 +69,7 @@
 
     "@tabler/icons": ["@tabler/icons@3.48.0", "", {}, "sha512-lQk06gVHNVBnJp0UOgtth54mcZBJM7rdYKsAxKOProj1bbSAx+/xiuOWfHlyvgdL3M+Y+I0HINrjHa3ygp8eXQ=="],
 
-    "@tabler/icons-svelte": ["@tabler/icons-svelte@3.48.0", "", { "dependencies": { "@tabler/icons": "3.48.0" }, "peerDependencies": { "svelte": ">=3 <6 || >=5.0.0-next.0" } }, "sha512-LsucFDMtGbBqcnkiMpMRWvwDcvjuMEYc3S8Agr1RwJT4Rqq8HaY13/sZrgdpfP9v0irLLPhehfQeH4ObmSGLOQ=="],
+    "@tabler/icons-svelte-runes": ["@tabler/icons-svelte-runes@3.48.0", "", { "dependencies": { "@tabler/icons": "3.48.0" }, "peerDependencies": { "svelte": "^5.0.0" } }, "sha512-tCN013651yf2But9ZnH3uT/4GaIX3TBQFSf/loYRGhSus5XnKFG2/toEEo2BajjHN1KCcXIQ1uXIi3oJy6GU2w=="],
 
     "@types/estree": ["@types/estree@1.0.9", "", {}, "sha512-GhdPgy1el4/ImP05X05Uw4cw2/M93BCUmnEvWZNStlCzEKME4Fkk+YpoA5OiHNQmoS7Cafb8Xa3Pya8m1Qrzeg=="],
 

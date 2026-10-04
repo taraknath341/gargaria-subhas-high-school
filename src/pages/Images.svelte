@@ -1,5 +1,5 @@
 <script>
-   import { IconPlayerTrackPrev, IconPlayerTrackNext } from "@tabler/icons-svelte";
+   import { IconPlayerTrackPrev, IconPlayerTrackNext } from "@tabler/icons-svelte-runes";
    import images from "../data/images.js";
 
    let imageIndex = $state.raw(0);

@@ -1,5 +1,5 @@
 <script>
-   import { IconMessage2 } from "@tabler/icons-svelte";
+   import { IconMessage2 } from "@tabler/icons-svelte-runes";
    import contactFormSubmit from "../functions/contactFormSubmit.js";
 
    let name = $state.raw("");

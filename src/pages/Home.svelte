@@ -1,5 +1,5 @@
 <script>
-   import { IconSchool } from "@tabler/icons-svelte";
+   import { IconSchool } from "@tabler/icons-svelte-runes";
    import { subAbout, about } from "../data/about.js";
 </script>
 

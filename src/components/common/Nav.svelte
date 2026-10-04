@@ -1,5 +1,5 @@
 <script>
-   import { IconHome, IconPhoto, IconMessage2, IconSettings, IconBrandGithub } from "@tabler/icons-svelte";
+   import { IconHome, IconPhoto, IconMessage2, IconSettings, IconBrandGithub } from "@tabler/icons-svelte-runes";
 </script>
 
 <!-- <aside> -->
