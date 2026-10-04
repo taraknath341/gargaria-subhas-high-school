@@ -15,7 +15,7 @@
 <Nav />
 
 {#key router.location}
-   <div out:slide={{ duration: 150 }}>
+   <div out:slide={{ duration: 400 }}>
       <Router
          routes={{
             "/": Home,
