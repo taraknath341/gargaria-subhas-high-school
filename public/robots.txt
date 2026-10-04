@@ -5,4 +5,4 @@ Allow: /
 Allow: /index.html
 
 # Sitemap
-Sitemap: https://gshs.surge.sh/sitemap.xml
+Sitemap: https://gshs.tarak.nx.kg/sitemap.xml
